@@ -1,21 +1,23 @@
 
 # Graphene prisma
+![License:BSD-3-Clause](https://img.shields.io/github/license/taoufik07/graphene-prisma.svg)
+<p align="center">
+	<img src="https://i.imgur.com/oLH7R6v.png" alt='prisma playground'>
+</p>
 
-Brings prisma playground to graphene and more
+Brings prisma playground to graphene and more !
 
 ## Install
 
 To install `graphene_prisma`, you need to specify one of the supported frameworks
 
 ```python
-pip install graphene_prisma[framework]
+pip install graphene_prisma
 ```
-
 or
 
 ```python
-pip install graphene_prisma
-pip install framework
+pip install graphene_prisma[framework]
 ```
 
 **Supported frameworks :**
@@ -39,13 +41,15 @@ from graphene_prisma.[framework] import [GraphQLHandler]
 - **[framework]** : name of the framework (responder, starlette,...)
 - **[GraphQLHandler]**: name of the graphql view in your framework (`GraphQLView` for `responder` and `GraphQLApp` for `starlette` ) 
 
-Here is a list of the graphql classes for each framework 
+Here is a list of the corresponding graphql classes to each framework :
+<p align="center">
 
 | framework   |  GraphQL view   |
 |-------------|-----------------|
 |[responder](https://github.com/kennethreitz/responder)| GraphQLView |
 |[starlette](https://github.com/encode/starlette)  | GraphQLApp |
 
+</p>
 
 ### Starlette
 
