@@ -1,0 +1,4 @@
+#!/bin/sh -e
+
+export PACKAGE="graphene_prisma"
+export CHECK_TYPING="1"

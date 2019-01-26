@@ -1,0 +1,11 @@
+# Optional
+responder
+starlette
+
+# Dev
+autoflake
+black
+isort
+codecov
+pytest
+pytest-cov

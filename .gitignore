@@ -1,0 +1,7 @@
+*.pyc
+.coverage
+.pytest_cache/
+.mypy_cache/
+app.py
+graphene_prisma.egg-info/
+venv/
